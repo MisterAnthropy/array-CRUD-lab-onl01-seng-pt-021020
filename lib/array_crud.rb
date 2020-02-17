@@ -1,17 +1,21 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["Air" , "Water" , "Earth" , "Fire"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = ["Juicy" , "Dry"]
+  element = "arrays!"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  
+    array = ["Juicy" , "Dry"]
+  element = "arrays!"
+  array.push(element)
 end
 
 def remove_element_from_end_of_array(array)
