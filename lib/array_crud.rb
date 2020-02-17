@@ -22,9 +22,6 @@ def remove_element_from_end_of_array(array)
   array = ["Juicy" , "Dry", "arrays!"]
   excited = array.pop
   puts excited
-  
- 
-  
 end
 
 def remove_element_from_start_of_array(array)
