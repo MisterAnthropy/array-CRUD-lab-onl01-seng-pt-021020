@@ -19,6 +19,10 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
+  array = ["Juicy" , "Dry", "arrays!"]
+  array.pop.
+  
+ 
   
 end
 
